@@ -14,9 +14,9 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a class="image iframe-container">
-			<iframe src="https://drive.google.com/file/d/1_k-vM1X0WVex13w89QpeUGUI_ipqgR0H/preview" data-position="top center"></iframe>
-		</a>
+	        <div id="contentframe" style="position:relative; top: 160px; left: 0px;">
+		  <iframe src="https://drive.google.com/file/d/1_k-vM1X0WVex13w89QpeUGUI_ipqgR0H/preview" width="640" height="392"></iframe>
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -33,7 +33,7 @@ Brush The Germs Away uses beautiful imagery and a fun story to teach children ab
 		</div>
 	</section>
 	<section>
-		<a class="image">
+		<a href="generic.html" class="image">
 			<img src="{% link assets/images/author.jpeg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -46,7 +46,7 @@ Brush The Germs Away uses beautiful imagery and a fun story to teach children ab
 		</div>
 	</section>
 	<section>
-		<a  class="image">
+		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic07.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
