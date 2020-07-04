@@ -14,8 +14,10 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a class="image iframe-container">
-			<iframe src="https://drive.google.com/file/d/1_k-vM1X0WVex13w89QpeUGUI_ipqgR0H/preview" data-position="top center"></iframe>
+		<a class="image">
+			<div class="video-responsive">
+    				<iframe width="420" height="315" src="https://drive.google.com/file/d/1_k-vM1X0WVex13w89QpeUGUI_ipqgR0H/preview" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</a>
 		<div class="content">
 			<div class="inner">
